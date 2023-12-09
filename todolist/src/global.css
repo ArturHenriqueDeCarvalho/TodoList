@@ -1,0 +1,9 @@
+.checkbox .icon,
+.task div .icon,
+.create_form {
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  padding: 0;
+}

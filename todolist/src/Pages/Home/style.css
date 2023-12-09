@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url('https://cdn.pixabay.com/photo/2023/07/27/18/57/beach-8153869_1280.jpg') center no-repeat;
+  background-size: cover;
+}
+
+.inputTask {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.inputTask h4 {
+  margin-top: 20px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox .icon {
+  margin-top: 5px;
+  font-size: 15px;
+  opacity: 0;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.checkbox .task-text {
+  margin: 0;
+  max-width: 300px;
+  word-wrap: break-word;
+}
+
+.checkbox .line_through {
+  text-decoration: line-through;
+  color: green;
+}
+
+.task div span {
+  margin-right: 8px;
+}

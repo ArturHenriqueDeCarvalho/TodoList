@@ -1,0 +1,32 @@
+h4 {
+  padding: 4px;
+  border-radius: 3px;
+  color: aliceblue;
+  background-color: #333;
+}
+.task {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  height: 35px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.create_form button {
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.create_form input {
+  width: 400px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  border-radius: 5px;
+  outline: none;
+}
